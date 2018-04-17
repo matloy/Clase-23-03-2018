@@ -49,16 +49,11 @@
 	</div>
 </div>
 <script>
-
-    var urlStart = "http://api.openweathermap.org/data/2.5/weather";
-    
-    var urlCityID = 6542283;
-    
-    var urlUnit = "metric";
-    
-    var urlApikey = "823c5b113fb03562cbfbabb1402fe7f2";
-    
-    var url = urlStart + "?id=" + urlCityID + "&units=" + urlUnit + "&appid=" + urlApikey
+var urlStart = "https://api.openweathermap.org/data/2.5/weather";
+var urlCity = 6542283;
+var urlUnit = "metric";
+var urlApiKey = "823c5b113fb03562cbfbabb1402fe7f2";
+var url = urlStart + "?id=" + urlCity + "&units=" + urlUnit + "&appid=" + urlApiKey
     
     
 var request = new XMLHttpRequest();
